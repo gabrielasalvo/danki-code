@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto";
+}
+
+.cabecalho {
+  padding-left: 30px;
+  padding-top: 10px;
+  color: ivory;
+  height: 60px;
+  font-size: 40px;
+  background-color: #212343;
+}
+
+.img-banner {
+  background-image: url(bg-header.jpg);
+  height: 400px;
+  
+  
+
+  background-size: cover;
+}
+
+.center {
+  height: 100%;
+  width: 100%;
+ 
+  /*text-align: right; também posiciona  o formulário ao lado direito*/
+}
+
+.formulario {
+  /*display: inline-block; tambem posiciona junto ao text aling o formulario ao lado ireito*/
+  height: calc(100% + 120px);
+  width: 400px;
+  background-color: white;
+  position: relative;
+  top: -50px;
+  right: 25px;
+  float: right;
+  border: 8px solid #ccc;
+  color: #ccc;
+  text-transform: uppercase;
+
+  /*border-radius: 15%;*/
+}
+
+.box {
+  width: 600px;
+  height: 300px;
+  border: 1px solid rgb(80, 75, 75);
+  background-color: #212343;
+  opacity: 0.5;
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+
+.box li {
+  margin-top: 15px;
+  margin-left: 25px;
+  list-style-position: inside;
+  list-style: none;
+  padding: 10px;
+}
+
+.input-container {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.input-container span, .form p {
+  display: inline-block;
+  width: 100%;
+  color: #bbb;
+  font-size: 17px;
+}
+
+.formulario h2 {
+  font-weight: normal;
+  color: #999999;
+  font-size: 18px;
+  padding: 15px 10px;
+}
+
+
+.input-container input[type=text]{
+width: 344px;
+height: 55px;
+border: 1px solid #ccc;
+
+
+}
+
+
+.formulario p {
+    margin: 20px;
+}
+
+.input-container-submit {
+    text-align: center;
+}
+
+.input-container input[type=submit]{
+    width: 250px;
+    height: 40px;
+    background-color: #363a6d ;
+    font-size:25px;
+    color: whitesmoke;
+    display: inline-block;
+    border-bottom: 5px solid #4a5097;
+    cursor: pointer;
+
+}
+
+.formulario input[type=submit]:hover{
+    background-color: #323665;
+     
+}
